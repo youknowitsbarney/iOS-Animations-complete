@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				1A289821202AFBD900E5C078 /* AppDelegate.swift */,
+				1A289833202C7A0B00E5C078 /* BouncyViewController.swift */,
 				1A289823202AFBD900E5C078 /* MillionDollarViewController.swift */,
 				1A289825202AFBD900E5C078 /* Main.storyboard */,
 				1A289828202AFBD900E5C078 /* Assets.xcassets */,
 				1A28982A202AFBD900E5C078 /* LaunchScreen.storyboard */,
 				1A28982D202AFBD900E5C078 /* Info.plist */,
-				1A289833202C7A0B00E5C078 /* BouncyViewController.swift */,
 			);
 			path = "iOS-Animations";
 			sourceTree = "<group>";

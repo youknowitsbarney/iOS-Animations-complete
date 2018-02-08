@@ -9,7 +9,11 @@
 import UIKit
 
 class BouncyViewController: UIViewController {
+
     @IBOutlet weak var bouncyView: UIView!
+    
+    @IBAction func bounceButton(_ sender: Any) {
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
