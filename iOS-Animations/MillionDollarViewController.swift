@@ -17,6 +17,7 @@ class MillionDollarViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var labelConstraint: NSLayoutConstraint!
     @IBOutlet weak var emailTextViewConstraint: NSLayoutConstraint!
     @IBOutlet weak var passwordtextFieldConstraint: NSLayoutConstraint!
+    @IBOutlet weak var loginButtonCentreConstraint: NSLayoutConstraint!
     @IBOutlet weak var loginButtonBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var labelTopConstraint: NSLayoutConstraint!
 
@@ -30,6 +31,8 @@ class MillionDollarViewController: UIViewController, UITextFieldDelegate {
         labelConstraint.constant -= view.bounds.width
         emailTextViewConstraint.constant -= view.bounds.width
         passwordtextFieldConstraint.constant -= view.bounds.width
+        loginButtonCentreConstraint.constant -= view.bounds.width
+
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -61,6 +64,18 @@ class MillionDollarViewController: UIViewController, UITextFieldDelegate {
                        animations: {
                         self.passwordtextFieldConstraint.constant += self.view.bounds.width
 
+                        self.view.layoutIfNeeded()
+        },
+                       completion: nil)
+
+        UIView.animate(withDuration: 1.0,
+                       delay: 1.0,
+                       usingSpringWithDamping: 0.4,
+                       initialSpringVelocity: 10,
+                       options: [],
+                       animations: {
+
+                        self.loginButtonCentreConstraint.constant += self.view.bounds.width
                         self.view.layoutIfNeeded()
         },
                        completion: nil)
@@ -122,7 +137,7 @@ class MillionDollarViewController: UIViewController, UITextFieldDelegate {
                        delay: 0.0,
                        options: UIViewAnimationOptions(rawValue: curve),
                        animations: {
-                        self.loginButtonBottomConstraint.constant += changeInHeight
+                        self.loginButtonBottomConstraint.constant += changeInHeight / 1.5
                         self.labelTopConstraint.constant -= changeInHeight
 
                         self.view.layoutIfNeeded()

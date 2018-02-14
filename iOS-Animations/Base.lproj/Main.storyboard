@@ -88,6 +88,7 @@
                         <outlet property="labelConstraint" destination="3as-IP-CUW" id="gaq-T7-rkb"/>
                         <outlet property="labelTopConstraint" destination="pwS-8P-3qt" id="adc-ey-HWV"/>
                         <outlet property="loginButtonBottomConstraint" destination="ibJ-NJ-cPs" id="mgS-4H-zpR"/>
+                        <outlet property="loginButtonCentreConstraint" destination="wkp-Jk-czU" id="AqH-qV-Sdb"/>
                         <outlet property="millionDollarLabel" destination="EIK-mz-WCI" id="QKA-JY-vm5"/>
                         <outlet property="passwordTextField" destination="7Nc-nv-KNi" id="85R-ES-gji"/>
                         <outlet property="passwordtextFieldConstraint" destination="MS6-fh-o79" id="sAb-cY-2Lb"/>
