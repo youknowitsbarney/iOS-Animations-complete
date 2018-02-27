@@ -12,7 +12,6 @@
 		1A289827202AFBD900E5C078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A289825202AFBD900E5C078 /* Main.storyboard */; };
 		1A289829202AFBD900E5C078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A289828202AFBD900E5C078 /* Assets.xcassets */; };
 		1A28982C202AFBD900E5C078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A28982A202AFBD900E5C078 /* LaunchScreen.storyboard */; };
-		1A289834202C7A0B00E5C078 /* BouncyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A289833202C7A0B00E5C078 /* BouncyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		1A289828202AFBD900E5C078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A28982B202AFBD900E5C078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A28982D202AFBD900E5C078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A289833202C7A0B00E5C078 /* BouncyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				1A289821202AFBD900E5C078 /* AppDelegate.swift */,
-				1A289833202C7A0B00E5C078 /* BouncyViewController.swift */,
 				1A289823202AFBD900E5C078 /* MillionDollarViewController.swift */,
 				1A289825202AFBD900E5C078 /* Main.storyboard */,
 				1A289828202AFBD900E5C078 /* Assets.xcassets */,
@@ -141,7 +138,6 @@
 			files = (
 				1A289824202AFBD900E5C078 /* MillionDollarViewController.swift in Sources */,
 				1A289822202AFBD900E5C078 /* AppDelegate.swift in Sources */,
-				1A289834202C7A0B00E5C078 /* BouncyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
